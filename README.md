@@ -23,6 +23,7 @@ Then it will ask you to fill a json,keep on pressing enter and save it
 **botkit**
 **express**
 **unirest**
+
 5.To install dependencies type:**npm install --save <pkg-name>**
 
 6.Now go to slack and in integrations ,create a bot.
