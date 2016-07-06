@@ -24,7 +24,7 @@ Then it will ask you to fill a json,keep on pressing enter and save it
 **express**
 **unirest**
 
-5.To install dependencies type:**npm install --save <pkg-name>**
+5.To install dependencies type:**npm install --save pkg-name**
 
 6.Now go to slack and in integrations ,create a bot.
 Gets it s API key/Token and use it in the app.js ,where slack token is needed
@@ -35,7 +35,7 @@ Use this key in app.js below the comment mentioned in the code
 8.Your app.js is ready!!
 
 #Deploy!
-===========================================================
+-----------------------------------------------------------------------------------
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 Go to Heroku and create an app.You can deploy your app via dropbox,github or heroku on git.
