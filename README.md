@@ -44,4 +44,7 @@ Follow the instructions mentioned to use heroku on git,and initialise the heroku
 **heroku buildpacks:set heroku/nodejs**
 Commit the changes and push to git.
 Voila!!There you go your App is running on heroku and ur bot is live on slack!
+___________________________________________________________________________________
+## LICENCE
 
+[MIT LICENSE](https://github.com/AkshayRaul/ZingBot/blob/master/LICENSE) (c) Akshay Raul
