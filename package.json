@@ -1,0 +1,17 @@
+{
+  "name": "heroku_zing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "botkit": "^0.2.2",
+    "sqlite3": "^3.1.4",
+    "timer": "0.0.2",
+    "unirest": "^0.5.0"
+  }
+}
