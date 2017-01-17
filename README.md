@@ -1,3 +1,5 @@
+<a href="http://akshayraul.github.io/2016/11/16/ZingBot.html">ZingBot- On My Blog</a>
+
 # ZingBot
 ZingBot-Your Stock Assistant
 Zing Bot is a stock assistant bot on Slack ,deployed on Heroku and uses Mashapes Mutual Fund NAV api.
