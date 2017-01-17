@@ -22,12 +22,12 @@ var controller = Botkit.slackbot({
 });
 
 var bot = controller.spawn({
-    token: 'xoxb-46682778912-4OeQzInkfozk2FKq3DnlEkkb'
+    token: 'your token'
 }).startRTM();
 
 setInterval(function(){
 unirest.post("https://mutualfundsnav.p.mashape.com/")
-                                .header("X-Mashape-Key", "PQ9Eo7aoUrmshHKsizb07rbaxpzap15jQNdjsnDrbNb8TFs6ZK")
+                                .header("X-Mashape-Key", "your token")
                                 .header("Content-Type", "application/json")
                                 .header("Accept", "application/json")
                                 .send({"search":'Axis'})
@@ -138,7 +138,7 @@ if(response.text=="stop"||response.text=="NeverMind"||response.text=="OK"||respo
 }
 console.log(r);
  unirest.post("https://mutualfundsnav.p.mashape.com/")
-                                .header("X-Mashape-Key", "PQ9Eo7aoUrmshHKsizb07rbaxpzap15jQNdjsnDrbNb8TFs6ZK")
+                                .header("X-Mashape-Key", "your token")
                                 .header("Content-Type", "application/json")
                                 .header("Accept", "application/json")
                                 .send({"search":response.text})
@@ -189,7 +189,7 @@ if(response.text=="stop"||response.text=="NeverMind"||response.text=="OK"||respo
 
 console.log(r);
  unirest.post("https://mutualfundsnav.p.mashape.com/")
-                                    .header("X-Mashape-Key", "PQ9Eo7aoUrmshHKsizb07rbaxpzap15jQNdjsnDrbNb8TFs6ZK")
+                                    .header("X-Mashape-Key", "yourtoken")
                                     .header("Content-Type", "application/json")
                                     .header("Accept", "application/json")
                                     .send({"scodes":[response.text]})
@@ -254,7 +254,7 @@ controller.hears(['Search stock'], 'direct_message,direct_mention,mention', func
                                 convo.say("Stock");
                                 convo.ask('Enter Stock name?', function(response, convo) {
                                 unirest.post("https://mutualfundsnav.p.mashape.com/")
-                                .header("X-Mashape-Key", "PQ9Eo7aoUrmshHKsizb07rbaxpzap15jQNdjsnDrbNb8TFs6ZK")
+                                .header("X-Mashape-Key", "your token")
                                 .header("Content-Type", "application/json")
                                 .header("Accept", "application/json")
                                 .send({"search":response.text})
@@ -274,7 +274,7 @@ controller.hears(['Search stock'], 'direct_message,direct_mention,mention', func
                                 convo.say("Scode");
                                 convo.ask('Enter Stock name?', function(response, convo) {
                                     unirest.post("https://mutualfundsnav.p.mashape.com/")
-                                    .header("X-Mashape-Key", "PQ9Eo7aoUrmshHKsizb07rbaxpzap15jQNdjsnDrbNb8TFs6ZK")
+                                    .header("X-Mashape-Key", "your token")
                                     .header("Content-Type", "application/json")
                                     .header("Accept", "application/json")
                                     .send({"scodes":response.text})
